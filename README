@@ -1,0 +1,20 @@
+For ibus:
+
+1.ibus-table-createdb -s vissible-ibus.txt
+2.sudo cp vissible-ibus.db /usr/share/ibus-table/tables
+3.sudo cp vissible.gif /usr/share/ibus-table/icons
+4.restart ibus and add it in preferences
+
+For scim:
+
+1.scim-make-table vissible-scim.txt -b -o vissible.bin
+2.sudo cp vissible.bin /usr/share/scim/tables
+3.sudo cp vissible.gif /usr/share/scim/icons
+4.restart scim and add it in preferences
+
+#############################################
+注意：
+可根据需要自行修改完善本码表，如果你不介意，可以将你所做修改部分发邮件到
+vissible@gmail.com，以便改进本码表。
+(非常欢迎感兴趣的同学一起来完善本码表)
+#############################################
